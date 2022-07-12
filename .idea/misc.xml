@@ -4,6 +4,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/dubbo-1" />
     <file type="web" url="file://$PROJECT_DIR$/dubbo-2" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbo-3" />
+    <file type="web" url="file://$PROJECT_DIR$/dubbo-4" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -11,6 +13,11 @@
         <option value="$PROJECT_DIR$/dubbo-1/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-2/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/interface/dubbo-3/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">

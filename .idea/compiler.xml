@@ -10,5 +10,10 @@
         <module name="dubbo-1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-3" target="1.7" />
+      <module name="dubbo-4" target="1.7" />
+      <module name="interface" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>

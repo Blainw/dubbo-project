@@ -14,7 +14,7 @@ public class MyController {
     private UserService userService;
     @RequestMapping("/user")
     public String user(Model model,String name){
-        User user=userService.queryUserById(name);
+        User user=this.userService.queryUserById(name);
         model.addAttribute("user",user);
         return "user";
     }
