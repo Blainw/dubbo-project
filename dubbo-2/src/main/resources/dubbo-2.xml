@@ -13,5 +13,5 @@
         url：访问服务接口的地址，类似于mysql：//localhost：3306
         registry="N/A"：表示是直连
     -->
-    <dubbo:reference id="userserviceimpl" interface="wdm.example.ch1.UserService" url="dubbo://localhost:20880" registry="N/A"/>
+    <dubbo:reference id="userService" interface="wdm.example.ch1.UserService" url="dubbo://localhost:20880" registry="N/A"/>
 </beans>

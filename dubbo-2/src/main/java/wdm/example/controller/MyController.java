@@ -8,9 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import wdm.example.ch1.User;
 import wdm.example.ch1.UserService;
 
+import javax.annotation.Resource;
+
 @Controller
 public class MyController {
-    @Autowired
+    @Resource
     private UserService userService;
     @RequestMapping("/user")
     public String user(Model model,String name){
