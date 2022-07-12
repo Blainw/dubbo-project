@@ -16,7 +16,7 @@
     name:指定协议的名称，一般都是dobbo
     port：端口号，默认时20880
     -->
-    <dubbo:protocol name="dubbo" port="20880"/>
+    <dubbo:protocol name="dubbo" port="20880"/><!--20880-->
 
     <!--暴露服务接口
         interface：暴露的接口的全限定名称
