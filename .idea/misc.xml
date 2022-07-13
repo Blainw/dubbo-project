@@ -6,6 +6,8 @@
     <file type="web" url="file://$PROJECT_DIR$/2-dubbo" />
     <file type="web" url="file://$PROJECT_DIR$/4-dubbo" />
     <file type="web" url="file://$PROJECT_DIR$/5-dubbo" />
+    <file type="web" url="file://$PROJECT_DIR$/7-dubbo" />
+    <file type="web" url="file://$PROJECT_DIR$/8-dubbo" />
     <file type="web" url="file://$PROJECT_DIR$/dubbo-3" />
   </component>
   <component name="MavenProjectsManager">
@@ -21,6 +23,9 @@
         <option value="$PROJECT_DIR$/1-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/4-dubbo/pom.xml" />
         <option value="$PROJECT_DIR$/5-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/6-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/7-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/8-dubbo/pom.xml" />
       </list>
     </option>
   </component>

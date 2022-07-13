@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="4-dubbo" />
+        <module name="7-dubbo" />
         <module name="3-interface" />
         <module name="5-dubbo" />
+        <module name="6-interface" />
+        <module name="8-dubbo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

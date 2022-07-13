@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="dubbo-7"/>
+
+    <dubbo:protocol name="dubbo" port="20880"/>
+
+    <!--使用zookeeper注册中心,指定注册中心地址和端口号-->
+    <dubbo:registry address="zookeeper://localhost:2181"/>
+
+    <!--暴露服务接口-->
+    <dubbo:service interface="wdm.example.service.UserService" ref="a"/>
+
+    <!--向ioc容器中加入serviceimpl的bean-->
+    <bean id="a" class="wdm.example.service.impl.UserServiceImpl"/>
+</beans>
