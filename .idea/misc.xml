@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/dubbo-1" />
-    <file type="web" url="file://$PROJECT_DIR$/dubbo-2" />
+    <file type="web" url="file://$PROJECT_DIR$/1-dubbo" />
+    <file type="web" url="file://$PROJECT_DIR$/2-dubbo" />
+    <file type="web" url="file://$PROJECT_DIR$/4-dubbo" />
+    <file type="web" url="file://$PROJECT_DIR$/5-dubbo" />
     <file type="web" url="file://$PROJECT_DIR$/dubbo-3" />
-    <file type="web" url="file://$PROJECT_DIR$/dubbo-4" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,12 +14,14 @@
         <option value="$PROJECT_DIR$/dubbo-1/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-2/pom.xml" />
         <option value="$PROJECT_DIR$/intereface-3/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-4/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo-5/pom.xml" />
+        <option value="$PROJECT_DIR$/3-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/2-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/1-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/4-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/5-dubbo/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/interface/dubbo-3/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">

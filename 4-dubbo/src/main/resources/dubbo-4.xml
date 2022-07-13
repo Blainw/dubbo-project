@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <dubbo:application name="dubbo-4"/>
+
+    <dubbo:protocol name="dubbo" port="20880"/>
+
+    <!--暴露服务接口-->
+    <dubbo:service interface="wdm.example.service.UserService" ref="s" registry="N/A"/>
+
+    <!--向ioc容器中加入serviceimpl的bean-->
+    <bean id="s" class="wdm.example.service.impl.UserServiceImpl"></bean>
+</beans>

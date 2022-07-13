@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/1-dubbo/dubbo-3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/1-dubbo/dubbo-3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4-dubbo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5-dubbo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dubbo-3/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dubbo-4/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dubbo-4/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/intereface-3/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/intereface-3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/interface/dubbo-3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/interface/dubbo-3/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/interface/src/main/java" charset="UTF-8" />
