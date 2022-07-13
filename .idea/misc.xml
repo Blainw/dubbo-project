@@ -12,6 +12,7 @@
       <list>
         <option value="$PROJECT_DIR$/dubbo-1/pom.xml" />
         <option value="$PROJECT_DIR$/dubbo-2/pom.xml" />
+        <option value="$PROJECT_DIR$/intereface-3/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

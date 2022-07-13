@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dubbo-2" />
         <module name="dubbo-1" />
+        <module name="intereface-3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
